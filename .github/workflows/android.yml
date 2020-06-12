@@ -23,4 +23,4 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: compiled
-        path: VirtualApp/app/build/compiled/outputs/apk/aosp
+        path: VirtualApp/app/build/outputs/apk/aosp
