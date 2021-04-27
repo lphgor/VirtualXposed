@@ -11,11 +11,11 @@ jobs:
     - uses: actions/checkout@v2
       with:
         submodules: 'true'
-    - name: set up JDK 11
+    - name: set up JDK 8
       uses: actions/setup-java@v2
       with:
         distribution: 'adopt'
-        java-version: 11
+        java-version: 8
     - name: Build with Gradle
       run: cd VirtualApp && ./gradlew assembleRelease
     - name: Archive production artifacts
